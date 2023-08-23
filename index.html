@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>login</title>
+</head>
+
+<body>
+    <main class="container">
+        <div class="left-container">
+            <span class="match"><strong>Y</strong>andex <img src="/img/planeta.svg" alt="planet">Match</span>
+        </div>
+        <div class="right-container">
+            <button type="button" class="back">back</button>
+            <h2>Sign Up</h2>
+            <span class="create">We need you to help us with some basic information to create your account.</span>
+            <div class="progres-bar">
+
+                <div class="first_active">
+                    <span>1</span>
+                </div>
+
+                <div class="bar1"><hr></div>
+                <div class="second">
+                    <span>2</span>
+                </div>
+                <div class="bar2"><hr></div>
+                <div class="thirt">
+                    <span>3</span>
+                </div>
+            </div>
+
+            <form>
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-control">
+                    <span>Gender: </span>
+                    <label for="gender" class="gender-button">
+                        <input type="radio" name="gender" id="male">
+                        <span>Male</span>
+                    </label>
+                    <label for="gender" class="gender-button">
+                        <input type="radio" name="gender" id="female">
+                        <span>Female</span>
+                    </label>
+                    
+                </div>
+                <div class="form-control">
+                    <label for="birth">Date of birth</label>
+                    <input type="date" name="birth" id="birth">
+                </div>
+                <button type="submit">Next step</button>
+            </form>
+            <span class="clicking">By clicking the button, I accept the <a href="#">Terms of Use of the service</a> and its <a href="#">    Privacy <br>Policy</a>, as well as consent to the processing of personal data</span>
+
+            <p class="linea"><span>or</span></p>
+
+            <div class="botton">
+
+                <button type="button">
+                    <img src="/img/Facebook.svg" alt="facebook">
+                    <span>Continue with Facebook</span>
+                </button>
+
+                <button type="button">
+                    <img src="/img/google.svg" alt="google">
+                    <span>Continue with Google</span>
+                </button>
+
+                <button type="button">
+                    <img src="/img/R.svg" alt="Yandex">
+                    <span>Continue with Yandex</span>
+                </button>
+
+                <button type="button">
+                    <img src="/img/vk.svg" alt="vk">
+                    <span>Continue with VKontake</span>
+                </button>
+            </div>
+
+            <span class="login">Already have an account?<a href="#">Log in</a></span>
+        </div>
+    </main>
+</body>
+
+</html>
